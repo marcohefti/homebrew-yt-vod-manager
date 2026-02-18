@@ -6,18 +6,18 @@ class YtVodManager < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/marcohefti/yt-vod-manager/releases/download/v0.1.3/yt-vod-manager_v0.1.3_darwin_arm64.tar.gz"
-      sha256 "a63ed41a914b036340e93402b2c67f1acd15d3d0b4bd2058c0f5c7a302bbda33"
+      sha256 "15eebd9f796f964c929eea52c8dcf2a0e03498b948eb323a67e03fdaefc79b39"
     else
       url "https://github.com/marcohefti/yt-vod-manager/releases/download/v0.1.3/yt-vod-manager_v0.1.3_darwin_amd64.tar.gz"
-      sha256 "2b5e2abc2de435d89293b9964af703f16692f00d26c09b546018c1359099da31"
+      sha256 "15385aaa4eb786eb3099ac9dacd046da3f4ae100fb1b55b386bf796c78ec3a0c"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/marcohefti/yt-vod-manager/releases/download/v0.1.3/yt-vod-manager_v0.1.3_linux_arm64.tar.gz"
-      sha256 "37588351b42e6a4a834a3cc09f80493f744ea66a04fece230b63c40420d2d3db"
+      sha256 "06f4923a6fb158b916ca417c9c36cc5c3f1d33486f953862cab9c8b4fd91dc55"
     else
       url "https://github.com/marcohefti/yt-vod-manager/releases/download/v0.1.3/yt-vod-manager_v0.1.3_linux_amd64.tar.gz"
-      sha256 "efc8506dfae6f4c2871b65918bdd072c301a5130410f270a9457ac400350a2c4"
+      sha256 "0b3913f5e9503f67a07d3b0e5bf18d3eda6bf7be6a4a95bc5df7750f9bcc3411"
     end
   end
 
