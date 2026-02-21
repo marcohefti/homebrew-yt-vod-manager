@@ -1,23 +1,23 @@
 class YtVodManager < Formula
   desc "CLI app to download YouTube channels and playlists and keep them up to date locally"
   homepage "https://github.com/marcohefti/yt-vod-manager"
-  version "0.1.5"
+  version "0.1.7"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/marcohefti/yt-vod-manager/releases/download/v0.1.5/yt-vod-manager_v0.1.5_darwin_arm64.tar.gz"
-      sha256 "07f2ea0f788178d8f0e13dc76d1202f55e97530217c1689b7662ca1fd4b42fb9"
+      url "https://github.com/marcohefti/yt-vod-manager/releases/download/v0.1.7/yt-vod-manager_v0.1.7_darwin_arm64.tar.gz"
+      sha256 "d5472adcac105c8a0354879c5dac56ef7ce04fdf43534582a31b3a01a1b6ba85"
     else
-      url "https://github.com/marcohefti/yt-vod-manager/releases/download/v0.1.5/yt-vod-manager_v0.1.5_darwin_amd64.tar.gz"
-      sha256 "64d12af0518648f1f3732b0ef58c5288d43466ef50c226c0241c2c78efde8e39"
+      url "https://github.com/marcohefti/yt-vod-manager/releases/download/v0.1.7/yt-vod-manager_v0.1.7_darwin_amd64.tar.gz"
+      sha256 "794f80fa83ea6110f6531fc433992c784397185708577cdfd0c78ee0c78aa989"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/marcohefti/yt-vod-manager/releases/download/v0.1.5/yt-vod-manager_v0.1.5_linux_arm64.tar.gz"
-      sha256 "3667552ad980ec514e065643039aa74d02a4b0071ff6142c1cc041058fa414e0"
+      url "https://github.com/marcohefti/yt-vod-manager/releases/download/v0.1.7/yt-vod-manager_v0.1.7_linux_arm64.tar.gz"
+      sha256 "4c67ea49a0eb918ac4bfaf74b722f6898b219ddcc4ef4f04ce7a3daf51f0cb2d"
     else
-      url "https://github.com/marcohefti/yt-vod-manager/releases/download/v0.1.5/yt-vod-manager_v0.1.5_linux_amd64.tar.gz"
-      sha256 "a2b2632f902e643bbf832fbaee8afcd2cac5a2758b10deebd5e613e4df60c2cc"
+      url "https://github.com/marcohefti/yt-vod-manager/releases/download/v0.1.7/yt-vod-manager_v0.1.7_linux_amd64.tar.gz"
+      sha256 "2ca99c055eeb50ad73b267931ab7076268206860452ee5d588cdcd18e513ee01"
     end
   end
 
